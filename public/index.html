@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<title>Twitterカード作成デモ</title>
+<style>
+:root {
+	box-sizing:border-box;
+}
+body {
+	width:100%;
+	max-width:600px;
+	margin:0 auto;
+	padding:50px 2vw;
+}
+h1 {
+	font-size:20;
+	font-weight:300;
+	margin-bottom:10px;
+}
+textarea,
+button {
+	width:100%;
+	margin-bottom:10px;
+}
+textarea {
+	font-size:16px;
+	padding:5px;
+}
+button {
+	border:none;
+	border-radius:5px;
+	background-color:#999;
+	font-size:20px;
+	color:#fff;
+	padding:5px 0;
+	cursor:pointer;
+}
+</style>
+
+<main>
+	<section>
+		<h1>テキストを入力してください</h1>
+		<form action="make.php" method="post">
+			<textarea name="text" placeholder="100文字まで。日本語対応は別途make.phpの修正が必要" require maxlength="100" autofocus></textarea>
+			<button type="submit">作成</button>
+		</form>
+	</section>
+</main>

@@ -1,1 +1,7 @@
-# twitter_card_searvice
+# Twitterカードを使ったサービスのテンプレ
+## 前提
+- PHP7
+- Imagickインストール済み
+
+## 動作
+テキストを入力し、Imagickでテキストの画像を出力
